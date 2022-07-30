@@ -1,0 +1,40 @@
+/*------------------------------------------------------------------
+Project:    Krozo Personal Portfolio
+Version:    1.0
+Primary use:  ib-themes
+
+[Table of contents]
+
+1. Body
+2. Header
+3. Footer
+4. Blog
+5. Portfolio
+6. style
+7. 404
+8. home-dark
+9. Services
+10. Skill
+11. preview
+12. animation
+
+-------------------------------------------------------------------*/
+@import "bootstrap-grid";
+@import "themefy";
+
+@import "main/variable";
+@import "main/mixin";
+@import "main/reboot";
+@import "main/base";
+@import "main/button";
+@import "main/color";
+@import "main/header";
+@import "main/footer";
+@import "main/blog";
+@import "main/portfolio";
+@import "main/style";
+@import "main/404";
+@import "main/home-dark";
+@import "main/preview";
+@import "main/animation";
+@import "main/modal";

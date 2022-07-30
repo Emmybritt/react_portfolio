@@ -1,0 +1,43 @@
+.rotate-both-side {
+  -webkit-animation: rotate-both-side 4s infinite both;
+  animation: rotate-both-side 4s infinite both;
+}
+
+@keyframes rotate-both-side {
+  from {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+}
+
+.slide-both-side {
+  -webkit-animation: slide-both-side 4s infinite both;
+  animation: slide-both-side 4s infinite both;
+}
+
+@keyframes slide-both-side {
+  from {
+    -webkit-transform: translate(-5px);
+    transform: translateY(-5px);
+  }
+
+  50% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+
+  to {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}

@@ -1,0 +1,47 @@
+/*Footer
+---------------------*/
+
+.footer {
+  padding: 12px 0;
+  background: $px-dark;
+  .theme-light & {
+    background: $px-white;
+    border-top: 1px solid rgba($px-dark, 0.1);
+  }
+  .nav {
+    a {
+      color: $px-white;
+      font-size: 14px;
+      margin-right: 17px;
+      .theme-light & {
+        color: $px-dark;
+      }
+      &:hover {
+        color: $px-theme;
+      }
+    }
+  }
+  p {
+    color: $px-white;
+    font-size: 14px;
+    margin: 0;
+    .theme-light & {
+      color: $px-dark;
+    }
+    a {
+      color: $px-white;
+      &:hover {
+        color: $px-theme;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .text-md-left {
+    text-align: left;
+  }
+  .text-md-right {
+    text-align: right;
+  }
+}
