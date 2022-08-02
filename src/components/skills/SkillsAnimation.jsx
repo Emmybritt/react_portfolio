@@ -15,21 +15,21 @@ const Skills = () => {
 
           <ul className="aducation-box theme-bg">
             <li>
-              <span className="dark-bg">2010-2012</span>
-              <h6>Front-end Engineer</h6>
-              <p>International Design Institute</p>
+              <span className="dark-bg">2016-2019</span>
+              <h6>Mathematics education</h6>
+              <p>Adeniran ogunsanya college of education</p>
             </li>
 
             <li>
-              <span className="dark-bg">2010-2012</span>
-              <h6>Graphic Designer</h6>
-              <p>Rio Design Institute</p>
+              <span className="dark-bg">2020-2021</span>
+              <h6>Front end development</h6>
+              <p>Wonderland Institute</p>
             </li>
 
             <li>
-              <span className="dark-bg">2010-2012</span>
-              <h6>Visual Designer</h6>
-              <p>Jakarta Design Institute</p>
+              <span className="dark-bg">2022 - till date</span>
+              <h6>System achitecture</h6>
+              <p>Freecodecamp</p>
             </li>
           </ul>
 
@@ -94,14 +94,14 @@ const Skills = () => {
             {/* End skill-lt */}
 
             <div className="skill-lt">
-              <h6>WordPress</h6>
+              <h6>React native</h6>
 
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
-                  style={{ width: 75 + "%" }}
+                  style={{ width: 80 + "%" }}
                 >
-                  <span>75%</span>
+                  <span>80%</span>
                 </div>
               </div>
             </div>
@@ -122,20 +122,6 @@ const Skills = () => {
             {/* End skill-lt */}
 
             <div className="skill-lt">
-              <h6>UI/UX</h6>
-
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  style={{ width: 88 + "%" }}
-                >
-                  <span>88%</span>
-                </div>
-              </div>
-            </div>
-            {/* End skill-lt */}
-
-            <div className="skill-lt">
               <h6>CSS3</h6>
 
               <div className="skill-bar">
@@ -147,6 +133,22 @@ const Skills = () => {
                 </div>
               </div>
             </div>
+            {/* End skill-lt */}
+
+            <div className="skill-lt">
+              <h6>Node js</h6>
+
+              <div className="skill-bar">
+                <div
+                  className="skill-bar-in theme-bg"
+                  style={{ width: 60 + "%" }}
+                >
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+
+            
             {/* End skill-lt */}
           </div>
         </div>

@@ -25,7 +25,7 @@ export default function SimpleSlider() {
 
   const TestimonilContent = [
     {
-      imageName: "team-1",
+      imageName: "res",
       desc: `  I design and develop services for customers of all sizes,
       specializing in creating stylish, modern websites, web services
       and online stores.`,
@@ -33,7 +33,7 @@ export default function SimpleSlider() {
       rating: "5.0",
     },
     {
-      imageName: "team-2",
+      imageName: "res",
       desc: `  I design and develop services for customers of all sizes,
       specializing in creating stylish, modern websites, web services
       and online stores.`,
@@ -41,7 +41,7 @@ export default function SimpleSlider() {
       rating: "4.8",
     },
     {
-      imageName: "team-4",
+      imageName: "res",
       desc: `  I design and develop services for customers of all sizes,
       specializing in creating stylish, modern websites, web services
       and online stores.`,
@@ -62,7 +62,7 @@ export default function SimpleSlider() {
           >
             <div className="avatar">
               <img
-                src={`img/testimonial/${val.imageName}.jpg`}
+                src={require(`../../assets/${val.imageName}.jpeg`)}
                 alt="review comments"
               ></img>
             </div>

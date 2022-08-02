@@ -21,10 +21,10 @@ const About = () => {
           data-aos-dealay="100"
         >
           <div className="typo-box about-me">
-            <h3>Miladra Narzo</h3>
+            <h3>Emmy britt</h3>
             <h5>
-              A Lead <span className="color-theme">App Developer</span> based in{" "}
-              <span className="color-theme">Canada</span>
+              A <span className="color-theme">Front engineer</span> based in{" "}
+              <span className="color-theme">Lagos</span>
             </h5>
             <p>
               I design and develop services for customers of all sizes,
@@ -37,7 +37,7 @@ const About = () => {
               <div className="col-md-6">
                 <div className="media">
                   <label>Birthday</label>
-                  <p>4th april 1991</p>
+                  <p>29th july 2000</p>
                 </div>
                 <div className="media">
                   <label>Age</label>
@@ -45,11 +45,11 @@ const About = () => {
                 </div>
                 <div className="media">
                   <label>Residence</label>
-                  <p>Canada</p>
+                  <p>Lagos</p>
                 </div>
                 <div className="media">
                   <label>Address</label>
-                  <p>California, USA</p>
+                  <p>46 community street yaba</p>
                 </div>
               </div>
               {/* End .col */}
@@ -57,18 +57,18 @@ const About = () => {
               <div className="col-md-6">
                 <div className="media">
                   <label>E-mail</label>
-                  <p>info@domain.com</p>
+                  <p>beritogwu@gmail.com</p>
                 </div>
                 <div className="media">
                   <label>Phone</label>
-                  <p>820-885-3321</p>
+                  <p>07016588973</p>
                 </div>
                 <div className="media">
-                  <label>Skype</label>
-                  <p>skype.0404</p>
+                  <label>Github</label>
+                  <p>Emmybritt</p>
                 </div>
                 <div className="media">
-                  <label>Freelance</label>
+                  <label>Job</label>
                   <p>Available</p>
                 </div>
               </div>

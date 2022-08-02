@@ -70,7 +70,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a className="nav-link" href="#about" onClick={handleClick}>
-                    <span>About Us</span>
+                    <span>About Me</span>
                   </a>
                 </li>
                 <li>

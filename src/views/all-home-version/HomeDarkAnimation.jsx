@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import Slider from "../../components/slider/SliderFourAnimation";
+// import Slider from "../../components/slider/SliderFourAnimation";
+import Slider from "../../components/slider/SliderFiveVideoDark";
 import About from "../../components/about/AboutDarkAnimation";
 import Service from "../../components/service/ServiceAnimation";
 import Skills from "../../components/skills/SkillsAnimation";
@@ -36,7 +37,7 @@ const HomeFour = () => {
               <h3 className="font-alt">My Services</h3>
               <p>
                 I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
+                specializing in creating stylish, modern websites, web services, mobile apps
                 and online stores.
               </p>
             </div>
@@ -106,7 +107,7 @@ const HomeFour = () => {
             <div className="col-lg-6 my-3">
               <div className="contct-form">
                 <div className="sm-title">
-                  <h4 className="font-alt">Contact us</h4>
+                  <h4 className="font-alt">Contact me</h4>
                 </div>
                 {/* End .sm-title */}
                 <Contact />
@@ -124,7 +125,7 @@ const HomeFour = () => {
                   <h4 className="font-alt">Get in touch</h4>
                   <p>
                     Always available for freelancing if the right project comes
-                    along, Feel free to contact me.
+                    along, Feel free to contact me. Am also in for full time onsite job.
                   </p>
                 </div>
 
@@ -138,9 +139,7 @@ const HomeFour = () => {
                     <i className="ti-map"></i>
                   </div>
                   <span className="media-body">
-                    123 Stree New York City , <br />
-                    United States Of America <br />
-                    NY 750065.
+                    46 community street off catholic churchc yaba lagos state.
                   </span>
                 </div>
                 {/* End media */}
@@ -155,9 +154,9 @@ const HomeFour = () => {
                     <i className="ti-email"></i>
                   </div>
                   <span className="media-body">
-                    support@domain.com
+                    beritogwu@gmail.com
                     <br />
-                    info@domain.com
+                    emmybritt69@gmail.com
                   </span>
                 </div>
                 {/* End media */}
@@ -172,9 +171,9 @@ const HomeFour = () => {
                     <i className="ti-mobile"></i>
                   </div>
                   <span className="media-body">
-                    +044 966 9696 636
+                    07016588973
                     <br />
-                    +044 966 9696 636
+                    08167566746
                   </span>
                 </div>
                 {/* End media */}

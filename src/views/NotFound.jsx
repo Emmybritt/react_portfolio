@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/footer/FooterAnimation";
 import useDocumentTitle from "../components/useDocumentTitle";
 
 const NotFound = () => {

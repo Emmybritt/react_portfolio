@@ -24,12 +24,12 @@ const Slider = () => {
           <div className="row align-items-center full-screen">
             <div className="col-lg-12">
               <div className="hb-typo text-center">
-                <h1 className="font-alt">Raquel Murillo</h1>
+                <h1 className="font-alt">Emmy britt</h1>
                 <h2 className="mb-4">
                   <TextLoop>
-                    <span className="loop-text">Web Developer</span>
-                    <span className="loop-text"> UI/UX Designer</span>
-                    <span className="loop-text"> App Developer</span>
+                    <span className="loop-text">Front end engineer</span>
+                    {/* <span className="loop-text"> UI/UX Designer</span>
+                    <span className="loop-text"> App Developer</span> */}
                   </TextLoop>{" "}
                 </h2>
                 <Social />

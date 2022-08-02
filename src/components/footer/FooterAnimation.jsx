@@ -5,14 +5,15 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaPinterestP,
+  FaGithub,
 } from "react-icons/fa";
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
   { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
   { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-  { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
+  { Social: <FaLinkedinIn />, link: "https://twitter.com/EmmyBritt2" },
+  { Social: <FaGithub />, link: "https://www.pinterest.com/" },
 ];
 
 const Footer = () => {
@@ -35,11 +36,11 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
-              ib-themes
+              Emmy britt
             </a>
             all right reserved
           </p>

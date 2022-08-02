@@ -15,14 +15,14 @@ const WebRoutes = () => {
       <BrowserRouter>
         <Routes>
         {/* <ScrollTopBehaviour /> */}
-          <Route path="/" element={<Preview />} />
-          <Route path="/home-light" element={<HomeLight />} />
-          <Route path="/home-light-animation" element={<HomeLightAnimation />} />
-          <Route path="/home-dark-animation" element={<HomeDarkAnimation />} />
-          <Route path="/home-dark" element={<HomeDark />} />
+          {/* <Route path="/" element={<Preview />} /> */}
+          {/* <Route path="/home-light" element={<HomeLight />} />
+          <Route path="/home-light-animation" element={<HomeLightAnimation />} /> */}
+          <Route path="/" element={<HomeDarkAnimation />} />
+          {/* <Route path="/home-dark" element={<HomeDark />} />
           <Route path="/home-video-light" element={<HomeVideoLight />} />
-          <Route path="/home-video-dark" element={<HomeVideoDark />} /> 
-          <Route element={<NotFound />} />
+          <Route path="/home-video-dark" element={<HomeVideoDark />} />  */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
   );
