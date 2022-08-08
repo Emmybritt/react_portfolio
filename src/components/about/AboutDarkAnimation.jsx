@@ -10,7 +10,7 @@ const About = () => {
           data-aos-duration="1200"
         >
           <div className="img-box dark-img-box">
-            <img src="img/about/about-2.jpg" alt="smiling a girl" />
+            <img src={require('../../assets/emmybritt.jpeg')} className="myImage" alt="smiling a girl" />
           </div>
         </div>
 
@@ -27,8 +27,8 @@ const About = () => {
               <span className="color-theme">Lagos</span>
             </h5>
             <p>
-              I design and develop services for customers of all sizes,
-              specializing in creating stylish, modern websites, web services
+              I design and develop softwares for customers and companies, am
+              specialized in creating stylish, modern websites, Mobile apps
               and online stores. My passion is to design digital user
               experiences through the bold interface and meaningful
               interactions. Check out my Portfolio
@@ -41,7 +41,7 @@ const About = () => {
                 </div>
                 <div className="media">
                   <label>Age</label>
-                  <p>22 Yr</p>
+                  <p>22 Yrs</p>
                 </div>
                 <div className="media">
                   <label>Residence</label>
@@ -65,7 +65,7 @@ const About = () => {
                 </div>
                 <div className="media">
                   <label>Github</label>
-                  <p>Emmybritt</p>
+                  <p><a href="https://github/Emmybritt">Emmybritt</a></p>
                 </div>
                 <div className="media">
                   <label>Job</label>
@@ -76,7 +76,7 @@ const About = () => {
             </div>
             {/* End .row */}
             <div className="btn-bar">
-              <a className="px-btn px-btn-theme" href="img/resume.png" download>
+              <a className="px-btn px-btn-theme" href="../../assets/berit.pdf" download>
                 Download CV
               </a>
             </div>

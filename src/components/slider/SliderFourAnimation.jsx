@@ -10,7 +10,7 @@ const Slider = () => {
         className="home-banner overlay overlay-65"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/banner/bg-3.jpg"
+            process.env.PUBLIC_URL + "img/banner/code.png"
           })`,
         }}
       >
@@ -56,7 +56,7 @@ const Slider = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  Miladra Narzo
+                  Ogwu emmanuel berit
                 </h1>
                 <div>
                   <div className="nav ht-list justify-content-center">
@@ -82,7 +82,7 @@ const Slider = () => {
                       data-aos-duration="1200"
                       data-aos-delay="250"
                     >
-                      UI/UX Designer
+                      Mobile engineer
                     </span>
                   </div>
                 </div>

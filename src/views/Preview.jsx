@@ -138,7 +138,7 @@ const Preview = () => {
                 <a
                   href="https://themeforest.net/item/krozo-react-personal-portfolio-template/33293104"
                   className="px-btn px-btn-theme"
-                  target="_blank"
+                  // target="_blank"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   data-aos-delay="200"

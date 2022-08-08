@@ -70,6 +70,7 @@ const HomeFour = () => {
           </div>
           {/* End .row */}
           <Portfolio />
+          {/* <Blog /> */}
         </div>
       </section>
       {/* End Portfolio */}

@@ -33,7 +33,7 @@ export default function SimpleSlider() {
       rating: "5.0",
     },
     {
-      imageName: "res",
+      imageName: "imagecopy",
       desc: `  I design and develop services for customers of all sizes,
       specializing in creating stylish, modern websites, web services
       and online stores.`,

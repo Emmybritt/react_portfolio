@@ -10,9 +10,9 @@ function useDocumentTitle(title, prevailOnUnmount = false) {
 
   useEffect(
     () => () => {
-      if (!prevailOnUnmount) {
+      // if (!prevailOnUnmount) {
         document.title = defaultTitle.current;
-      }
+      // }
     },
     []
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "../Social";
 import TextLoop from "react-text-loop";
-import { FaAngleDown } from "react-icons/fa";
+// import { FaAngleDown } from "react-icons/fa";
 import { videoTagString, VideoTag } from "react-video-tag";
 
 videoTagString({

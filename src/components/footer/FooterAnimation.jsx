@@ -4,7 +4,6 @@ import {
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
-  FaPinterestP,
   FaGithub,
 } from "react-icons/fa";
 
@@ -36,7 +35,7 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
-              href=""
+              href="https://github.com/Emmybritt"
               target="_blank"
               rel="noreferrer"
             >

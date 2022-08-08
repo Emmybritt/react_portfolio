@@ -48,21 +48,21 @@ const Skills = () => {
           </div>
           <ul className="aducation-box dark-bg">
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Software Engineer</h6>
-              <p>Furious Design Institute</p>
+              <span className="theme-bg">2020</span>
+              <h6>Front end Engineer (Intern)</h6>
+              <p>Eagle wealth microfinance</p>
             </li>
 
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Android Developer</h6>
+              <span className="theme-bg">2021</span>
+              <h6>Software Engineer</h6>
               <p>Ketlimte Design Ltd.</p>
             </li>
 
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Rubby Developer</h6>
-              <p>Randara Institute Academy</p>
+              <span className="theme-bg">2022</span>
+              <h6>Mobile engineer</h6>
+              <p>Nupat technologies</p>
             </li>
           </ul>
           {/* End  .aducation-box */}

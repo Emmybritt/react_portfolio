@@ -1,14 +1,14 @@
 import React from "react";
-import Preview from "../views/Preview";
-import HomeLight from "../views/all-home-version/HomeLight";
-import HomeLightAnimation from "../views/all-home-version/HomeLightAnimation";
+// import Preview from "../views/Preview";
+// import HomeLight from "../views/all-home-version/HomeLight";
+// import HomeLightAnimation from "../views/all-home-version/HomeLightAnimation";
 import HomeDarkAnimation from "../views/all-home-version/HomeDarkAnimation";
-import HomeDark from "../views/all-home-version/HomeDark";
-import HomeVideoLight from "../views/all-home-version/HomeVideoLight";
-import HomeVideoDark from "../views/all-home-version/HomeVideoDark";
+// import HomeDark from "../views/all-home-version/HomeDark";
+// import HomeVideoLight from "../views/all-home-version/HomeVideoLight";
+// import HomeVideoDark from "../views/all-home-version/HomeVideoDark";
 import NotFound from "../views/NotFound";
-import { BrowserRouter, Routes,  Route, Switch } from "react-router-dom";
-import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
+// import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
+import { BrowserRouter, Routes,  Route } from "react-router-dom";
 
 const WebRoutes = () => {
   return (

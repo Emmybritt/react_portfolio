@@ -1,8 +1,12 @@
 import React from "react";
 import TextLoop from "react-text-loop";
-import { FaAngleDown } from "react-icons/fa";
+// import { FaAngleDown } from "react-icons/fa";
 import Social from "../Social";
 import { videoTagString, VideoTag } from "react-video-tag";
+// videoTagString({
+//   src: "../../assets/mypcrecord.mov",
+//   poster: "img/bg-2.jpg",
+// });
 videoTagString({
   src: "https://www.ibthemespro.com/resource/krozo/resources/video-2.mp4",
   poster: "img/bg-2.jpg",
@@ -16,7 +20,7 @@ const Slider = () => {
         className="home-banner overlay overlay-75 inner-content-static video-banner video-banner-dark"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/banner/bg-2.jpg"
+            process.env.PUBLIC_URL + "img/banner/code.png"
           })`,
         }}
       >
@@ -46,7 +50,7 @@ const Slider = () => {
             muted={`${true}`}
             playsInline={`${true}`}
             loop={`${true}`}
-            src={`${"https://www.ibthemespro.com/resource/krozo/resources/video-2.mp4"}`}
+            src={require('../../assets/mypcrecord.mp4')}
             poster={`${"img/bg-2.jpg"}`}
           />
         </div>
