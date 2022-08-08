@@ -33,7 +33,7 @@ const Footer = () => {
 
         <div className="col-md-6 my-2 text-center text-md-right">
           <p>
-            © {new Date().getFullYear()} copyright{" "}
+            ©  {new Date().getFullYear()} copyright{" "}
             <a
               href="https://github.com/Emmybritt"
               target="_blank"
