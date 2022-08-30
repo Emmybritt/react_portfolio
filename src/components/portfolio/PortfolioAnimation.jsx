@@ -12,6 +12,9 @@ const PortfolioAnimation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
+  const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen5, setIsOpen5] = useState(false);
+  const [isOpen6, setIsOpen6] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -21,6 +24,15 @@ const PortfolioAnimation = () => {
   }
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
+  }
+  function toggleModalFour() {
+    setIsOpen4(!isOpen4);
+  }
+  function toggleModalFive() {
+    setIsOpen5(!isOpen5);
+  }
+  function toggleModalSix() {
+    setIsOpen6(!isOpen6);
   }
 
   return (
@@ -88,6 +100,72 @@ const PortfolioAnimation = () => {
             </div>
 
             <img height={185} width='100%' src={require('../../assets/job.jpg')} alt="blog post"></img>
+          </div>
+          {/* End blog-img */}
+
+
+          {/* End blog-info */}
+        </div>
+        {/* End blog-post */}
+      </div>
+      <div
+        className="col-lg-4 col-md-6 my-3"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+        data-aos-delay="200"
+      >
+        <div className="blog-post" onClick={toggleModalFour}>
+          <div className="blog-img">
+            <div className="data">
+              <span>22</span>
+              <small>Jan</small>
+            </div>
+
+            <img height={185} width='100%' src={require('../../assets/school.png')} alt="blog post"></img>
+          </div>
+          {/* End blog-img */}
+
+
+          {/* End blog-info */}
+        </div>
+        {/* End blog-post */}
+      </div>
+      <div
+        className="col-lg-4 col-md-6 my-3"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+        data-aos-delay="200"
+      >
+        <div className="blog-post" onClick={toggleModalFive}>
+          <div className="blog-img">
+            <div className="data">
+              <span>22</span>
+              <small>Jan</small>
+            </div>
+
+            <img height={185} width='100%' src={require('../../assets/nft.png')} alt="blog post"></img>
+          </div>
+          {/* End blog-img */}
+
+
+          {/* End blog-info */}
+        </div>
+        {/* End blog-post */}
+      </div>
+      <div
+        className="col-lg-4 col-md-6 my-3"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+        data-aos-delay="200"
+      >
+        <div className="blog-post" onClick={toggleModalSix}>
+          <div className="blog-img">
+            <div className="data">
+              <span>22</span>
+              <small>Jan</small>
+            </div>
+
+            <img height={185} width='100%' src={require('../../assets/creditCardValidate.png')} alt="blog post"></img>
           </div>
           {/* End blog-img */}
 
@@ -244,7 +322,162 @@ const PortfolioAnimation = () => {
                 {/* End .article-title */}
 
                 <div className="article-content">
-                <a href="https://vercel.com/emmybritt/vue-tailwind-css-landing-page-design">Click Link to view App</a>
+                <a href="https://buzzschool.vercel.app/">Click Link to view App</a>
+                </div>
+                {/* End article content */}
+              </article>
+              {/* End Article */}
+
+              <div className="contact-form article-comment">
+                <h4>Send me a Review</h4>
+                <Contact />
+              </div>
+              {/* End .contact Form */}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End modal box news */}
+    </Modal>
+    {/* End  Modal for Blog-2 */}
+    {/* Start Modal for Blog-2 */}
+    <Modal
+      isOpen={isOpen4}
+      onRequestClose={toggleModalFour}
+      contentLabel="My dialog"
+      className="custom-modal"
+      overlayClassName="custom-overlay"
+      closeTimeoutMS={500}
+    >
+      <div>
+        <button className="close-modal" onClick={toggleModalFour}>
+           <span style={{
+            color: 'white'
+           }}>X</span>
+        </button>
+        {/* End close icon */}
+
+        <div className="box_inner">
+          <div className="scrollable">
+            <div className="blog-grid">
+              <div className="blog-img">
+              
+              <img width='100%' src={require('../../assets/school.png')} alt="blog post"></img>
+              </div>
+              {/* End blog-img */}
+              <article className="article">
+                <div className="article-title">
+                  <h2>
+                    Online School Management System
+                  </h2>
+                  
+                </div>
+                {/* End .article-title */}
+
+                <div className="article-content">
+                <a href="https://agbadev-code-camp-frontend.vercel.app/">Click Link to view App</a>
+                </div>
+                {/* End article content */}
+              </article>
+              {/* End Article */}
+
+              <div className="contact-form article-comment">
+                <h4>Send me a Review</h4>
+                <Contact />
+              </div>
+              {/* End .contact Form */}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End modal box news */}
+    </Modal>
+    <Modal
+      isOpen={isOpen4}
+      onRequestClose={toggleModalFour}
+      contentLabel="My dialog"
+      className="custom-modal"
+      overlayClassName="custom-overlay"
+      closeTimeoutMS={500}
+    >
+      <div>
+        <button className="close-modal" onClick={toggleModalFour}>
+           <span style={{
+            color: 'white'
+           }}>X</span>
+        </button>
+        {/* End close icon */}
+
+        <div className="box_inner">
+          <div className="scrollable">
+            <div className="blog-grid">
+              <div className="blog-img">
+              
+              <img width='100%' src={require('../../assets/school.png')} alt="blog post"></img>
+              </div>
+              {/* End blog-img */}
+              <article className="article">
+                <div className="article-title">
+                  <h2>
+                    Online School Management System
+                  </h2>
+                  
+                </div>
+                {/* End .article-title */}
+
+                <div className="article-content">
+                <a href="https://agbadev-code-camp-frontend.vercel.app/">Click Link to view App</a>
+                </div>
+                {/* End article content */}
+              </article>
+              {/* End Article */}
+
+              <div className="contact-form article-comment">
+                <h4>Send me a Review</h4>
+                <Contact />
+              </div>
+              {/* End .contact Form */}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End modal box news */}
+    </Modal>
+    <Modal
+      isOpen={isOpen6}
+      onRequestClose={toggleModalSix}
+      contentLabel="My dialog"
+      className="custom-modal"
+      overlayClassName="custom-overlay"
+      closeTimeoutMS={500}
+    >
+      <div>
+        <button className="close-modal" onClick={toggleModalSix}>
+           <span style={{
+            color: 'white'
+           }}>X</span>
+        </button>
+        {/* End close icon */}
+
+        <div className="box_inner">
+          <div className="scrollable">
+            <div className="blog-grid">
+              <div className="blog-img">
+              
+              <img width='100%' src={require('../../assets/creditCardValidate.png')} alt="blog post"></img>
+              </div>
+              {/* End blog-img */}
+              <article className="article">
+                <div className="article-title">
+                  <h2>
+                    Credit Card validated Data Transfer Object
+                  </h2>
+                  
+                </div>
+                {/* End .article-title */}
+
+                <div className="article-content">
+                <a href="https://mycode-test.vercel.app/submitdetails">Click Link to view App</a>
                 </div>
                 {/* End article content */}
               </article>
