@@ -65,7 +65,7 @@ const About = () => {
                 </div>
                 <div className="media">
                   <label>Github</label>
-                  <p><a href="https://github/Emmybritt">Emmybritt</a></p>
+                  <p><a href="https://github.com/Emmybritt">Emmybritt</a></p>
                 </div>
                 <div className="media">
                   <label>Job</label>
