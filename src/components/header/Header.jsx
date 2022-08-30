@@ -26,11 +26,7 @@ const Header = () => {
           <div className=" header-transparent">
             {/* Brand */}
             <NavLink to="/">
-              <img
-                className="navbar-brand"
-                src="img/logo/logo-light.svg"
-                alt="brand logo"
-              />
+              <h1>Emmy britt</h1>
             </NavLink>
             {/* / */}
             {/* Mobile Toggle */}
