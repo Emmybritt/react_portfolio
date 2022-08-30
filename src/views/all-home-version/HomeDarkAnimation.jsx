@@ -13,7 +13,7 @@ import Footer from "../../components/footer/FooterAnimation";
 import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeFour = () => {
-  useDocumentTitle("Home Dark Animation || React Personal Portfolio Template");
+  useDocumentTitle("Ogwu Emmanuel berit - Personal Portfolio Websites");
   return (
     <div className="home-dark">
       <Header />
