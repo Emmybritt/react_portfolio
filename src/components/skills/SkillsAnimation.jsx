@@ -49,14 +49,15 @@ const Skills = () => {
           <ul className="aducation-box dark-bg">
             <li>
               <span className="theme-bg">2020</span>
-              <h6>Front end Engineer (Intern)</h6>
-              <p>Eagle wealth microfinance</p>
+              <h6>Software Engineer</h6>
+              <p>Wonderland technology.</p>
+             
             </li>
 
             <li>
               <span className="theme-bg">2021</span>
-              <h6>Software Engineer</h6>
-              <p>Ketlimte Design Ltd.</p>
+              <h6>Front end Engineer</h6>
+              <p>Eagle wealth microfinance</p>
             </li>
 
             <li>

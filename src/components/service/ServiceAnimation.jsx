@@ -3,44 +3,38 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "ti-ruler-pencil",
-    title: "Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Web Development",
+    descriptions: ``,
     animationDealy: "",
   },
   {
     icon: "ti-image",
-    title: "Graphic",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Mobile Development",
+    descriptions: ``,
     animationDealy: "100",
   },
   {
     icon: "ti-layout",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Planning & Researching",
+    descriptions: ``,
     animationDealy: "200",
   },
   {
     icon: "ti-brush-alt",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Web Animation",
+    descriptions: ``,
     animationDealy: "300",
   },
   {
     icon: "ti-camera",
-    title: "Photography",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Software Engineer Mentorship",
+    descriptions: ``,
     animationDealy: "400",
   },
   {
     icon: "ti-world",
-    title: "Mobile apps",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Web/Mobile App Deployment",
+    descriptions: ``,
     animationDealy: "500",
   },
 ];

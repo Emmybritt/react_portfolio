@@ -25,7 +25,7 @@ export default function SimpleSlider() {
 
   const TestimonilContent = [
     {
-      imageName: "res",
+      imageName: require(`../../assets/res.jpeg`),
       desc: `  I design and develop services for customers of all sizes,
       specializing in creating stylish, modern websites, web services
       and online stores.`,
@@ -33,7 +33,7 @@ export default function SimpleSlider() {
       rating: "5.0",
     },
     {
-      imageName: "imagecopy",
+      imageName: require(`../../assets/michael.jpeg`),
       desc: `  I design and develop services for customers of all sizes,
       specializing in creating stylish, modern websites, web services
       and online stores.`,
@@ -62,7 +62,7 @@ export default function SimpleSlider() {
           >
             <div className="avatar">
               <img
-                src={require(`../../assets/${val.imageName}.jpeg`)}
+                src={val.imageName}
                 alt="review comments"
               ></img>
             </div>
