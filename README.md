@@ -1,4 +1,4 @@
-# Krozo React Personal Portfolio Template
+# Emmy britt React Personal Portfolio Template
 
 ## Description
 

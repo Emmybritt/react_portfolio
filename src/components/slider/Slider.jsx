@@ -50,7 +50,7 @@ const Slider = () => {
             <div className="col-lg-12">
               <div className="hb-typo text-center">
                 <h6>Hi There, I'm</h6>
-                <h1 className="font-alt">Krozo Plakson</h1>
+                <h1 className="font-alt">Emmy britt Plakson</h1>
                 <h2>
                   <TextLoop>
                     <span className="loop-text">Web Developer</span>

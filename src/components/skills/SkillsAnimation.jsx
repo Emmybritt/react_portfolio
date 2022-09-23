@@ -142,9 +142,21 @@ const Skills = () => {
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
-                  style={{ width: 60 + "%" }}
+                  style={{ width: 90 + "%" }}
                 >
-                  <span>60%</span>
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div className="skill-lt">
+              <h6>Express js</h6>
+
+              <div className="skill-bar">
+                <div
+                  className="skill-bar-in theme-bg"
+                  style={{ width: 90 + "%" }}
+                >
+                  <span>90%</span>
                 </div>
               </div>
             </div>

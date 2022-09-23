@@ -51,7 +51,7 @@ import React from "react";
 //     subTitle: "Behance Shot",
 //     alterText: "Web Application",
 //     portfolioLink:
-//       "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+//       "https://dribbble.com/shots/16529226-Emmy britt-Personal-Portfolio-React-Template",
 //   },
 // ];
 // const BrandingPortfolioContent = [
@@ -61,7 +61,7 @@ import React from "react";
 //     subTitle: "Behance Shot",
 //     alterText: "Web Application",
 //     portfolioLink:
-//       "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+//       "https://dribbble.com/shots/16529226-Emmy britt-Personal-Portfolio-React-Template",
 //   },
 
 //   {
@@ -97,7 +97,7 @@ import React from "react";
 //     subTitle: "Behance Shot",
 //     alterText: "Web Application",
 //     portfolioLink:
-//       "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+//       "https://dribbble.com/shots/16529226-Emmy britt-Personal-Portfolio-React-Template",
 //   },
 // ];
 // const FashionPortfolioContent = [

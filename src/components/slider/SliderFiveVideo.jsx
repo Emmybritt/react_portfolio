@@ -5,7 +5,7 @@ import TextLoop from "react-text-loop";
 import { videoTagString, VideoTag } from "react-video-tag";
 
 videoTagString({
-  src: "https://www.ibthemespro.com/resource/krozo/resources/video.mp4",
+  src: "https://www.ibthemespro.com/resource/Emmy britt/resources/video.mp4",
   poster: "img/bg-2.jpg",
 });
 
@@ -49,7 +49,7 @@ const Slider = () => {
             muted={`${true}`}
             playsInline={`${true}`}
             loop={`${true}`}
-            src={`${"https://www.ibthemespro.com/resource/krozo/resources/video.mp4"}`}
+            src={`${"https://www.ibthemespro.com/resource/Emmy britt/resources/video.mp4"}`}
             poster={`${"img/bg-2.jpg"}`}
           />
         </div>

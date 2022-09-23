@@ -54,7 +54,7 @@ const FeaturesContent = [
 ];
 
 const Preview = () => {
-  useDocumentTitle("Krozo - Preview || React Personal Portfolio Template");
+  useDocumentTitle("Emmy britt - Preview || React Personal Portfolio Template");
   return (
     <>
       <section className="section demo-section" id="demo">
@@ -76,7 +76,7 @@ const Preview = () => {
           <div className="title-wrapper text-center">
             <span className="tag">Features</span>
             <h2 className=" title">
-              <span className="theme-color">Krozo</span> All Features
+              <span className="theme-color">Emmy britt</span> All Features
             </h2>
           </div>
 
@@ -129,14 +129,14 @@ const Preview = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  Purchase The Krozo and Make Your Own{" "}
+                  Purchase The Emmy britt and Make Your Own{" "}
                   <span className="theme-color">React JS</span> &{" "}
                   <span className="theme-color">Bootstrap5 </span> Based
                   Portfolio Template.
                 </h3>
 
                 <a
-                  href="https://themeforest.net/item/krozo-react-personal-portfolio-template/33293104"
+                  href="https://themeforest.net/item/Emmy britt-react-personal-portfolio-template/33293104"
                   className="px-btn px-btn-theme"
                   // target="_blank"
                   data-aos="fade-up"

@@ -12,7 +12,7 @@ const About = () => {
 
         <div className="col-lg-6 my-3">
           <div className="typo-box about-me">
-            <h3>Krozo Plakson</h3>
+            <h3>Emmy britt Plakson</h3>
             <h5>
               A Lead <span className="color-theme">UX &amp; UI</span> designer
               based in <span className="color-theme">Canada</span>

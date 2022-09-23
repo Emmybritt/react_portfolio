@@ -50,8 +50,8 @@ const Header = () => {
                   : "mobile-menu navbar-collapse justify-content-end"
               }
             >
-              <Link to="/" className="sidebar-logo">
-                <img src="img/logo/logo-light.svg" alt="brand" />
+              <Link to="/" className="Emmy brittgo">
+                {/* <img src="img/logo/logo-light.svg" alt="brand" /> */}
               </Link>
               <Scrollspy
                 className="anchor_nav navbar-nav ml-auto"

@@ -8,7 +8,7 @@ import { videoTagString, VideoTag } from "react-video-tag";
 //   poster: "img/bg-2.jpg",
 // });
 videoTagString({
-  src: "https://www.ibthemespro.com/resource/krozo/resources/video-2.mp4",
+  src: "https://www.ibthemespro.com/resource/Emmy britt/resources/video-2.mp4",
   poster: "img/bg-2.jpg",
 });
 
@@ -31,7 +31,7 @@ const Slider = () => {
                 <h1 className="font-alt">Emmy britt</h1>
                 <h2 className="mb-4">
                   <TextLoop>
-                    <span className="loop-text">Front end engineer</span>
+                    <span className="loop-text">Senior Fullstack engineer</span>
                     {/* <span className="loop-text"> UI/UX Designer</span>
                     <span className="loop-text"> App Developer</span> */}
                   </TextLoop>{" "}
