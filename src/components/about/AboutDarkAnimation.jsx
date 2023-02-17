@@ -7,7 +7,7 @@ const About = () => {
 			<div className="row align-items-center justify-content-center">
 				<div className="col-lg-6 my-3" data-aos="fade-right" data-aos-duration="1200">
 					<div className="img-box dark-img-box">
-						<img src={require("../../assets/emmybritt.jpeg")} className="myImage" alt="smiling a girl" />
+						<img src={require("../../assets/emmanuel.jpeg")} className="myImage" alt="smiling a girl" />
 					</div>
 				</div>
 
